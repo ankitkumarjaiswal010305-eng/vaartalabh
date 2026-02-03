@@ -11,16 +11,16 @@ export function Navbar() {
       <div className="flex items-center justify-start">
         <a href="/" rel="noopener noreferrer">
           <Image
-            src="/assets/klub-ada-logo.svg"
-            width={70}
-            height={45}
+      src="/assets/logo.png"           
+       width={100}
+            height={100}
             className="hidden md:block"
             alt="Klub ada logo"
           />
         </a>
         <a href="/" rel="noopener noreferrer">
           <Image
-            src="/assets/klub-ada-logo.svg"
+            src="/assets/logo.png"
             width={52}
             height={39}
             className="block md:hidden"
