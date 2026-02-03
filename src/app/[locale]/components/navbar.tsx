@@ -11,16 +11,16 @@ export function Navbar() {
       <div className="flex items-center justify-start">
         <a href="/" rel="noopener noreferrer">
           <Image
-      src="/assets/logo.png"           
-       width={100}
-            height={100}
+      src="/assets/logo1.png"           
+       width={150}
+            height={150}
             className="hidden md:block"
             alt="Klub ada logo"
           />
         </a>
         <a href="/" rel="noopener noreferrer">
           <Image
-            src="/assets/logo.png"
+            src="/assets/logo1.png"
             width={52}
             height={39}
             className="block md:hidden"
@@ -34,24 +34,24 @@ export function Navbar() {
             {t("about_us")}
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link variant="tertiary" href="/blog">
             {t("blog")}
           </Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link variant="tertiary" href="/partnerstvo">
             {t("partners")}
           </Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link variant="tertiary" href="/dogodki">
             {t("events")}
           </Link>
-        </li>
+        </li> */}
       </ol>
       <div className="hidden md:block">
-        <LinkButton size="md" isExternal href="https://hack.klub-ada.si">
+        <LinkButton size="md" isExternal href="https://forms.gle/em3HMGDh5cSw9yuA6">
           {t("hackathon")}
         </LinkButton>
       </div>

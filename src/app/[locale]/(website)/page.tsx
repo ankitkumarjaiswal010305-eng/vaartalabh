@@ -10,12 +10,12 @@ export default function Page() {
   return (
     <>
       <Hero />
-      <Logos />
+      {/* <Logos /> */}
       <NextEvent />
       <Aktivnosti />
-      <Reviews />
+      {/* <Reviews /> */}
       <Discord />
-      <TopBlogs />
+      {/* <TopBlogs /> */}
       <Footer />
     </>
   );

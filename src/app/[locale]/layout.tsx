@@ -8,11 +8,11 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/src/i18n/routing";
 
 export const metadata: Metadata = {
-  title: "Klub Ada",
+  title: "Vartalaabh",
   description: "Community for women in tech in Slovenia",
   openGraph: {
     type: "website",
-    title: "Klub Ada",
+    title: "",
     description: "Community for women in tech in Slovenia",
     url: "https://klub-ada.si",
     siteName: "Klub Ada",

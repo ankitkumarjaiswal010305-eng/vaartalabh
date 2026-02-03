@@ -86,7 +86,7 @@
     "team": "team"
   },
   "Discord": {
-    "title": "Join our community",
+"title": "Join our WhatsApp community",
     "description": "Vartalaabh is an open, growing community of people who enjoy talking, listening, and learning from each other.",
     "cta": "Join us"
   },
@@ -123,9 +123,9 @@
     "slovene": "Slovene"
   },
   "Footer": {
-    "title": "A community of women in technology",
-    "cta": "Join us",
-    "cta_discord": "Join the Discord group",
+    "title": "A community built on conversations",   
+     "cta": "Join us",
+    "cta_discord": "Join the WhatsApp community",
     "description_discord": "A safe space for exchanging ideas, events, job opportunities and opportunities for personal and career development.",
     "cta_newsletter": "Subscribe to newsletter",
     "cta_events": "Join an event",
@@ -133,7 +133,7 @@
     "newsletter": {
       "description": "By subscribing to our newsletter, you’ll receive invitations to upcoming events and event summaries, useful tips, links to other helpful resources like hackathons, career events, job opportunities, and more.",
       "email_placeholder": "Enter your email address",
-      "consent": "I agree that Klub Ada may send me newsletters and other notifications via email.",
+      "consent": "I agree that Vartalaabh may send me newsletters and other notifications via email.",
       "cta": "Subscribe",
       "status_error": "Error during subscription.",
       "status_success": "Thanks for subscribing 💗",
@@ -142,11 +142,11 @@
   },
   "Pages": {
     "about_us": "About us",
-    "about_us_description": "Meet Klub Ada",
+    "about_us_description": "Vartalaabh",
     "activities": "Activities",
     "events": "Events",
     "events_all": "All events",
-    "hackathon": "AdaHack 2025",
+    "hackathon": "Join here",
     "blog": "Blog",
     "partners": "Partnerships"
   },

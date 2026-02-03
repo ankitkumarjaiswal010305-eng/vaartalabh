@@ -41,7 +41,8 @@ export function Footer() {
                   label={t("Footer.cta_discord")}
                   color="yellow"
                   description={t("Footer.description_discord")}
-                  href="https://forms.gle/iRmFfg7Amn3YchM2A"
+                   target="_blank"
+                  href="https://chat.whatsapp.com/EnGgTPPZq7mLxIc47eBqt9?mode=gi_t"
                   isExternal
                 />
               </div>
@@ -49,7 +50,8 @@ export function Footer() {
                 <CtaLink
                   label={t("Partners.cta")}
                   color="blue"
-                  href="/partnerstvo"
+                   target="_blank"
+                  href="https://forms.gle/jRjS5VyXXm56pHw59"
                 />
               </div>
             </div>
@@ -59,7 +61,8 @@ export function Footer() {
                 <CtaLink
                   label={t("Footer.cta_events")}
                   color="red"
-                  href="/dogodki"
+                   target="_blank"
+                  href="https://forms.gle/em3HMGDh5cSw9yuA6"
                 />
               </div>
               <div className="basis-8/12">
@@ -78,15 +81,20 @@ export function Footer() {
       </div>
       <div className="flex flex-col-reverse gap-10 md:flex-row px-7 py-16 md:px-14 bg-beige justify-between">
         <div className="flex flex-col gap-4">
-          <a href="/" rel="noopener noreferrer">
-            <Image
-              src="/assets/klub-ada-logo.svg"
-              width={80}
-              height={50}
-              alt="Klub Ada logo"
-            />
-          </a>
-          <Paragraph size="sm">{"info@klub-ada.si"}</Paragraph>
+
+          <a href="/" rel="noopener noreferrer" className="inline-block">
+  <Image
+    src="/assets/logo1.png"
+    width={200}
+    height={200}
+    alt="Vartalaabh logo"
+    className="w-40 md:w-48 lg:w-56 h-auto"
+    priority
+  />
+</a>
+
+
+          <Paragraph size="sm">{"support@Vartalaabh.com"}</Paragraph>
           <LanguageDialog />
         </div>
         <div className="flex flex-col md:flex-row gap-10 lg:gap-24">
@@ -103,7 +111,7 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-2">
+          {/* <div className="flex flex-col gap-2">
             <Paragraph size="lg" weight="bold">
               {t("Pages.activities")}
             </Paragraph>
@@ -124,7 +132,7 @@ export function Footer() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex flex-col gap-2">
             <Paragraph size="lg" weight="bold">
@@ -134,13 +142,14 @@ export function Footer() {
               <div>
                 <Link
                   variant="secondary"
-                  href="https://forms.gle/camdd2joyHi9kAZt5"
+                   target="_blank"
+                  href="https://chat.whatsapp.com/EnGgTPPZq7mLxIc47eBqt9?mode=gi_t"
                   isExternal
                 >
-                  {t("Common.discord")}
+                  {t("WhatsApp community")}
                 </Link>
               </div>
-              <div>
+              {/* <div>
                 <Link
                   variant="secondary"
                   href="https://www.linkedin.com/company/klub-ada/posts/"
@@ -148,11 +157,12 @@ export function Footer() {
                 >
                   {t("Common.linkedin")}
                 </Link>
-              </div>
+              </div> */}
               <div>
                 <Link
                   variant="secondary"
-                  href="https://www.instagram.com/klub_ada/"
+                   target="_blank"
+                  href="https://www.instagram.com/varta_laabh"
                   isExternal
                 >
                   {t("Common.instagram")}

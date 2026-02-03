@@ -21,7 +21,7 @@ export function PageWrapper({
 }: PageWrapperProps) {
   return (
     <section
-      className={clsx(`px-5 md:px-20 ${bgColor} box-border max-w-full`, {
+      className={clsx(`px-5 md:px-20 ${bgColor} box-border max-w-full mt-10`, {
         "pt-10 md:pt-20": !hasNoTopPadding,
         "pb-10 md:pb-20": !hasNoBottomPadding,
       })}

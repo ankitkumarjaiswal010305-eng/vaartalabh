@@ -9,7 +9,7 @@ export function PartnersList() {
     <PageWrapper>
       <div className="flex flex-col gap-20 md:gap-28">
         {/* Gold Partners */}
-        <div className="flex flex-col gap-4 md:gap-8 items-center justify-center">
+        {/* <div className="flex flex-col gap-4 md:gap-8 items-center justify-center">
           <Paragraph size="xl">{t("gold_partners")}</Paragraph>
           <Image
             src="/assets/logo-teads.svg"
@@ -18,10 +18,10 @@ export function PartnersList() {
             height={50}
             className="h-30 object-contain"
           />
-        </div>
+        </div> */}
 
         {/* Silver Partners */}
-        <div className="flex flex-col gap-4 md:gap-8 items-center justify-center">
+        {/* <div className="flex flex-col gap-4 md:gap-8 items-center justify-center">
           <Paragraph size="xl">{t("silver_partners")}</Paragraph>
           <div className="flex md:flex-row flex-col gap-8 md:gap-16 items-center justify-center">
             <Image
@@ -39,10 +39,10 @@ export function PartnersList() {
               className="h-28 object-contain"
             />
           </div>
-        </div>
+        </div> */}
 
         {/* Project Partners */}
-        <div className="flex flex-col gap-4 md:gap-8 items-center justify-center">
+        {/* <div className="flex flex-col gap-4 md:gap-8 items-center justify-center">
           <Paragraph size="xl">{t("project_partners")}</Paragraph>
           <div className="flex md:flex-row flex-col gap-8 md:gap-16 items-center justify-center">
             <Image
@@ -60,7 +60,7 @@ export function PartnersList() {
               className="h-28 object-contain"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </PageWrapper>
   );

@@ -4,8 +4,8 @@ import { PageWrapper } from "@/src/app/[locale]/components/page-wrapper";
 import { Paragraph } from "@/src/app/[locale]/components/paragraph";
 import { LinkButton } from "@/src/app/[locale]/components/link-button";
 import { Card } from "@/src/app/[locale]/components/card";
-import discordImage from "../../../../public/assets/discord-image.webp";
-import discordImageEn from "../../../../public/assets/discord-image-en.webp";
+import discordImage from "../../../../public/assets/whats.png";
+import discordImageEn from "../../../../public/assets/whats.png";
 import { useLocale, useTranslations } from "next-intl";
 
 export function Discord() {
@@ -30,13 +30,13 @@ export function Discord() {
             </div>
             <div className="flex flex-col justify-start gap-4 grow basis-2/5">
               <Image
-                src="/assets/discord-icon.svg"
+                src="/assets/whatsapp.png"
                 width={50}
                 height={50}
                 alt="Discord Icon"
                 className="object-cover"
               />
-              <Heading size="sm" className="max-w-72">
+              <Heading size="sm" className="max-w-full">
                 {t("title")}
               </Heading>
 
@@ -47,7 +47,7 @@ export function Discord() {
                 <LinkButton
                   size="md"
                   variant="secondary"
-                  href={"https://forms.gle/camdd2joyHi9kAZt5"}
+                  href={"https://chat.whatsapp.com/EnGgTPPZq7mLxIc47eBqt9?mode=gi_t"}
                   isExternal
                   showIcon
                 >
