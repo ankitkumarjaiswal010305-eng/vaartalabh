@@ -4,8 +4,8 @@ import { PageWrapper } from "@/src/app/[locale]/components/page-wrapper";
 import { Paragraph } from "@/src/app/[locale]/components/paragraph";
 import { LinkButton } from "@/src/app/[locale]/components/link-button";
 import { Card } from "@/src/app/[locale]/components/card";
-import discordImage from "../../../../public/assets/whats.png";
-import discordImageEn from "../../../../public/assets/whats.png";
+import discordImage from "../../../../public/assets/whatsa.png";
+import discordImageEn from "../../../../public/assets/whatsa.png";
 import { useLocale, useTranslations } from "next-intl";
 
 export function Discord() {
