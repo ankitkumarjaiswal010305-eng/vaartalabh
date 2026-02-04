@@ -30,7 +30,7 @@ export function Hero() {
 
         </div>
 
-        <LinkButton size="md" variant="secondary" href="#team">
+        <LinkButton size="md" variant="secondary"  target="_blank"  href="https://chat.whatsapp.com/EnGgTPPZq7mLxIc47eBqt9?mode=gi_t">
           Join the community
         </LinkButton>
       </div>
