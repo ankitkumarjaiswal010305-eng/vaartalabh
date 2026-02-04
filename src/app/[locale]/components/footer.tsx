@@ -69,7 +69,8 @@ export function Footer() {
                 <Card>
                   <div className="flex flex-col gap-4">
                     <Paragraph size="xl" weight="bold">
-                      {t("Footer.cta_newsletter")}
+                          A simple thought
+
                     </Paragraph>
                     <FooterNewsletter />
                   </div>

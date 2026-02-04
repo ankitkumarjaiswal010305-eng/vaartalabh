@@ -28,11 +28,9 @@ export function Navbar() {
           />
         </a>
       </div>
-      <ol className="items-center gap-10 hidden md:flex">
+      <ol className=" gap-10 hidden md:flex">
         <li>
-          <Link variant="tertiary" href="/o-nas">
-            {t("about_us")}
-          </Link>
+         
         </li>
         {/* <li>
           <Link variant="tertiary" href="/blog">
@@ -50,11 +48,21 @@ export function Navbar() {
           </Link>
         </li> */}
       </ol>
-      <div className="hidden md:block">
-        <LinkButton size="md" isExternal href="https://forms.gle/em3HMGDh5cSw9yuA6">
-          {t("hackathon")}
-        </LinkButton>
-      </div>
+    
+     <div className="hidden md:flex items-center gap-6">
+  <Link variant="tertiary" href="/o-nas">
+    {t("about_us")}
+  </Link>
+
+  <LinkButton
+    size="md"
+    isExternal
+    href="https://forms.gle/em3HMGDh5cSw9yuA6"
+  >
+    Join Here
+  </LinkButton>
+</div>
+
       <NavbarMenu />
     </nav>
   );

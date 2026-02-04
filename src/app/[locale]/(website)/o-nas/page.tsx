@@ -8,7 +8,7 @@ export default function Page() {
     <>
       <Hero />
       <Mission />
-      <Team />
+      {/* <Team /> */}
       <Footer />
     </>
   );
