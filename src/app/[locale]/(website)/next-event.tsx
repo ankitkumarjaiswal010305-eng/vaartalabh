@@ -22,13 +22,13 @@ function NextEventContent() {
 
   const events: EventData[] = [
     {
-      title: "Open Circle — Stories, Ideas & Real Talk",
+       title: "Naavigation — Direction Through Conversation",
       description:
-        "An open community circle where anyone can share thoughts, ideas, questions, or stories. No pressure, no stage — just people, perspectives, and meaningful conversations.",
-      location: "Underpass Café, Sector 17 · Chandigarh",
+        "Finding direction through shared conversations and perspectives. A discussion meetup to slow down, talk openly, and find clearer direction together.",
+      location: "Rose Garden, Sector 16 · Chandigarh",
       applyLink:
         "https://docs.google.com/forms/d/e/1FAIpQLSe6htMJAgCZDU-wP4Oy9qdtTc0RqfSyAWG7oqQ5bk3h9VLCnQ/viewform",
-      eventTime: "2026-02-22T17:00:00+05:30",
+      eventTime: "2026-02-22T11:00:00+05:30",    
     },
     {
       title: "Naavigation — Direction Through Conversation",
@@ -49,21 +49,26 @@ function NextEventContent() {
         const formattedDateAndTime = [date, time].join(
           ` ${t("Events.at")} `
         );
+  const isPastEvent = new Date(event.eventTime).getTime() < Date.now();
 
         return (
           <div
             key={index}
-            className="bg-[white] rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col"
+            className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col"
           >
             {/* Image */}
-            <div className="relative w-full aspect-square bg-red100">
-              <Image
-                src="/assets/logo.png"
-                alt="Vartalaabh Event"
-                fill
-                className="object-contain p-10"
-              />
-            </div>
+<div className="relative w-full h-64 bg-red100 flex items-center justify-center">
+  <Image
+    src="/assets/logo.png"
+    alt="Vartalaabh Event"
+    fill
+    className="object-contain p-10"
+  />
+</div>
+
+
+
+
 
             {/* Content */}
             <div className="p-6 flex flex-col gap-4 flex-grow">
@@ -77,17 +82,28 @@ function NextEventContent() {
                 {event.description}
               </Paragraph>
 
-              <div className="mt-auto pt-4">
-                <LinkButton
-                  size="md"
-                  showIcon
-                  href={event.applyLink}
-                  isExternal
-                  className="w-full justify-center"
-                >
-                  Confirm Attendance
-                </LinkButton>
-              </div>
+       <div className="mt-auto pt-4">
+  {isPastEvent ? (
+    <button
+      disabled
+      className="w-fit px-5 py-2.5 rounded-xl bg-gray-300 text-gray-600 cursor-not-allowed text-sm font-medium"
+    >
+      Event Closed
+    </button>
+  ) : (
+    <LinkButton
+      size="md"
+      showIcon
+      href={event.applyLink}
+      isExternal
+    >
+      Confirm Attendance
+    </LinkButton>
+  )}
+</div>
+
+
+              {/* </div> */}
             </div>
           </div>
         );
