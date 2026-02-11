@@ -39,7 +39,7 @@ export function Hero() {
                 label={t("cta_partners")}
                 color="blue"
                 target="_blank"
-                href="https://forms.gle/4Xsz6w7qYyQBijVq6"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdEiv9Ug-BVTvQDMsD52J8092my0txEC3Lb7urX4Af2dEn9rg/viewform"
               />
             </div>
           </div>
