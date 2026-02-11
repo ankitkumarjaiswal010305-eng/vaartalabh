@@ -27,7 +27,7 @@ function NextEventContent() {
         "Finding direction through shared conversations and perspectives. A discussion meetup to slow down, talk openly, and find clearer direction together.",
       location: "Rose Garden, Sector 16 · Chandigarh",
       applyLink:
-        "https://docs.google.com/forms/d/e/1FAIpQLSe6htMJAgCZDU-wP4Oy9qdtTc0RqfSyAWG7oqQ5bk3h9VLCnQ/viewform",
+        "https://forms.gle/4Xsz6w7qYyQBijVq6",
       eventTime: "2026-02-22T11:00:00+05:30",    
     },
     {
