@@ -62,7 +62,7 @@ export function Footer() {
                   label={t("Footer.cta_events")}
                   color="red"
                    target="_blank"
-                  href="https://forms.gle/em3HMGDh5cSw9yuA6"
+                  href="https://forms.gle/4Xsz6w7qYyQBijVq6"
                 />
               </div>
               <div className="basis-8/12">

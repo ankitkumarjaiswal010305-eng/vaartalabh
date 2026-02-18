@@ -46,7 +46,7 @@ export function NavbarMenu() {
               {t("about_us")}
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link variant="secondary" href="/blog">
               {t("blog")}
             </Link>
@@ -60,11 +60,11 @@ export function NavbarMenu() {
             <Link variant="secondary" href="/dogodki">
               {t("events")}
             </Link>
-          </li>
+          </li> */}
         </ol>
-        <LinkButton href="https://hack.klub-ada.si">
+        {/* <LinkButton href="https://hack.klub-ada.si">
           {t("hackathon")}
-        </LinkButton>
+        </LinkButton> */}
       </div>
     </div>
   );

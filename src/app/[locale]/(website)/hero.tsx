@@ -32,7 +32,7 @@ export function Hero() {
           </div>
           <div className="flex flex-row gap-4">
             <div className="basis-1/2">
-              <CtaLink label={t("cta_event")} color="red"   target="_blank" href="https://forms.gle/em3HMGDh5cSw9yuA6" />
+              <CtaLink label={t("cta_event")} color="red"   target="_blank" href="https://forms.gle/4Xsz6w7qYyQBijVq6" />
             </div>
             <div className="basis-1/2">
               <CtaLink

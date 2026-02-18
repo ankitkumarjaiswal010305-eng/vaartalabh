@@ -15,50 +15,51 @@
     "cta": "Postani partner"
   },
   "Partners": {
-    "title": "Postani partner Kluba Ada",
-    "description": "Partnerstvo s Klubom Ada ponuja priložnost za sodelovanje pri oblikovanju dogodkov in promocijskih aktivnostih. Sodelovanje omogoča dostop do skupnosti, ki združuje ženske z različnimi stopnjami znanja in izkušnjami na področju tehnologije.",
-    "join": {
-      "title": "Vas zanima sodelovanje?",
-      "write_to_us": "Za več informacij nam lahko pišete na "
-    },
-    "cta": "Postani partner",
-    "why": {
-      "title": "Zakaj postati partner?",
-      "description": "Verjamemo, da je povezovanje ključ do rasti in uspeha. Naša prizadevanja za spodbujanje žensk v tehnologiji se ne bi mogla uresničiti brez podpore partnerjev, ki delijo naše vrednote in vizijo.",
-      "description2": "Naša misija je ustvariti vključujoče okolje za ženske, ki delujejo v tehnologiji z organizacijo dogodkov v živo, programerskih uric, knjižnega kluba, izobraževalnih vsebin, mentorstva, Discord skupnosti, in se več.",
-      "benefits_title": "S partnerstvom lahko pridobite naslednje:",
-      "benefits": [
-        "Povečana prepoznavnost vašega podjetja.",
-        "Dostop do vrhunskega talenta.",
-        "Ustvarjanje pozitivnega vpliva na družbo."
-      ]
-    },
-    "collaboration": {
-      "title": "Možnosti sodelovanja",
-      "options": [
-        "Predstavitev in sodelovanje pri oblikovanju vsebine dogodkov.",
-        "Objava zaposlitvenih oglasov na naših platformah.",
-        "Programerski dogodki in mreženje.",
-        "Deljenje promocijskega materiala na dogodkih.",
-        "Povečanje prepoznavnosti vaše blagovne znamke.",
-        "Druge oblike sodelovanja po dogovoru."
-      ]
-    },
-    "stats": {
-      "title": "Vpliv Kluba Ada v številkah",
-      "insta_followers": "sledilk in sledilcev na Instagramu",
-      "linkedin_followers": "sledilk in sledilcev na LinkedInu",
-      "newsletter": "prijavljenih na novičnik",
-      "discord_members": "članic v Discord skupini",
-      "companies": "podjetij, ki so nas do sedaj podprla"
-    },
-    "logos": {
-      "title": "Podporniki & Partnerji",
-      "gold_partners": "Zlati partnerji",
-      "silver_partners": "Srebrni partnerji",
-      "project_partners": "Projektni partnerji"
-    }
+  "title": "Support Vartalaabh",
+  "description": "Vartalaabh is a community-driven initiative built on conversations, shared learning, and collective growth. If you or your organization would like to support the community in any way — through space, resources, ideas, mentorship, or small contributions — we would love to start a conversation with you.",
+  "join": {
+    "title": "Interested in supporting?",
+    "write_to_us": "You can reach out to us at "
   },
+  "cta": "Start a Conversation",
+  "why": {
+    "title": "Why support Vartalaabh?",
+    "description": "We believe meaningful growth happens when people come together with openness and mutual respect. Supporting Vartalaabh means helping create a space where individuals can connect, share experiences, and gain clarity through dialogue.",
+    "description2": "Vartalaabh is not a formal organization with fixed sponsorship tiers. It is a growing community where collaboration is shaped through conversation, trust, and shared intention.",
+    "benefits_title": "Supporting the community can help you:",
+    "benefits": [
+      "Connect with thoughtful and driven individuals across domains.",
+      "Build genuine relationships within an engaged community.",
+      "Contribute to positive impact through dialogue and shared growth."
+    ]
+  },
+  "collaboration": {
+    "title": "Ways you can support",
+    "options": [
+      "Provide event space or venue support.",
+      "Contribute snacks, food, or beverages for meetups.",
+      "Support with logistics or event coordination.",
+      "Share knowledge, mentorship, or join as a discussion contributor.",
+      "Offer merchandise or small community goodies.",
+      "Provide financial support if aligned.",
+      "Suggest any other form of collaboration."
+    ]
+  },
+  "stats": {
+    "title": "Community Snapshot",
+    "insta_followers": "Instagram community members",
+    "linkedin_followers": "LinkedIn community members",
+    "newsletter": "Newsletter subscribers",
+    "discord_members": "Community group members",
+    "companies": "Organizations that have supported us"
+  },
+  "logos": {
+    "title": "Supporters & Collaborators",
+    "gold_partners": "Community Partners",
+    "silver_partners": "Supporting Organizations",
+    "project_partners": "Project Collaborators"
+  }
+},
   "Activities": {
     "title": "Aktivnosti",
     "description": "Preberi si vse aktivnosti, ki jih ponujamo.",
@@ -97,18 +98,18 @@
     "cta_partners": "Postani partner",
     "image_alt": "Slika dogodka"
   },
-  "Events": {
-    "title": "Dogodki",
-    "no_events_found": "Na žalost ne najdemo nobenih dogodkov.",
-    "description": "Pridruži se nam na neformalnih druženjih, kjer obravnavamo različne karierne in tehnične teme, gostimo strokovnjakinje in strokovnjake iz industrije ter se družimo in izmenjujemo ideje v sproščenem okolju ob prigrizkih in pijači.",
-    "title_next_event": "Pridi na naš naslednji dogodek",
-    "coming_soon": "COMING SOON!",
-    "title_past_events": "Pretekli dogodki",
-    "all_events": "Vsi dogodki",
-    "cta": "Prijavi se",
-    "cta_next_event": "Naslednji dogodek",
-    "at": "ob"
-  },
+"Events": {
+  "title": "Events",
+  "no_events_found": "No events are currently scheduled. Stay tuned for upcoming gatherings.",
+  "description": "Vartalaabh is an open community built on meaningful conversations and shared learning. Our meetups bring together students, professionals, tech enthusiasts, founders, managers, investors, and curious individuals from different domains. This is not a lecture series or speaker-driven event — it is a discussion circle where we exchange perspectives, explore careers and technology, talk about real challenges, and learn from one another in a simple, respectful, and welcoming environment.",
+  "title_next_event": "Join the Next Gathering",
+  "coming_soon": "Coming Soon",
+  "title_past_events": "Past Gatherings",
+  "all_events": "All Gatherings",
+  "cta": "Join Us",
+  "cta_next_event": "Next Gathering",
+  "at": "at"
+},
   "NotFound": {
     "description": "O ne! Stran ni bila najdena.",
     "back_button": "Nazaj na glavno stran"
@@ -238,3 +239,5 @@
     }
   }
 }
+
+
