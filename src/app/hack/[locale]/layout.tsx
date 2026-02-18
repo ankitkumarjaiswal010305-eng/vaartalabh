@@ -5,20 +5,25 @@ import { routing } from "@/src/i18n/routing";
 import { anaheim } from "@/src/app/fonts";
 import "@/src/app/[locale]/globals.css";
 
+// import type { Metadata } from "next";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://vartalaabh.com"), // 👈 REQUIRED
+
   title: "Vartalaabh | Conversations. Clarity. Community.",
   description:
     "Vartalaabh is an open community built on meaningful conversations and shared learning. A space where people connect, exchange ideas, and grow together across careers, technology, and life.",
+
   openGraph: {
     type: "website",
     title: "Vartalaabh | Conversations. Clarity. Community.",
     description:
       "An open discussion community where people meet, talk, listen, and grow together — across careers, technology, ideas, and life.",
-    url: "https://vartalaabh.com", // replace with your actual domain
+    url: "/", // 👈 now use relative URL
     siteName: "Vartalaabh",
     images: [
       {
-        url: "/assets/og-image.webp",
+        url: "/assets/og-image.webp", // now resolves correctly
         width: 1200,
         height: 630,
         alt: "Vartalaabh - Community Built on Conversations",
@@ -26,6 +31,7 @@ export const metadata: Metadata = {
     ],
   },
 };
+
 
 
 export default async function RootLayout({
