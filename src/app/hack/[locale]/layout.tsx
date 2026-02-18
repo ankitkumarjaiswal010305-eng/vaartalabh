@@ -6,24 +6,27 @@ import { anaheim } from "@/src/app/fonts";
 import "@/src/app/[locale]/globals.css";
 
 export const metadata: Metadata = {
-  title: "Klub Ada - Hackathon",
-  description: "Community for women in tech in Slovenia - Hackathon",
+  title: "Vartalaabh | Conversations. Clarity. Community.",
+  description:
+    "Vartalaabh is an open community built on meaningful conversations and shared learning. A space where people connect, exchange ideas, and grow together across careers, technology, and life.",
   openGraph: {
     type: "website",
-    title: "Klub Ada - Hackathon",
-    description: "Community for women in tech in Slovenia - Hackathon",
-    url: "https://hack.klub-ada.si",
-    siteName: "Klub Ada Hackathon",
+    title: "Vartalaabh | Conversations. Clarity. Community.",
+    description:
+      "An open discussion community where people meet, talk, listen, and grow together — across careers, technology, ideas, and life.",
+    url: "https://vartalaabh.com", // replace with your actual domain
+    siteName: "Vartalaabh",
     images: [
       {
         url: "/assets/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Klub Ada - Hackathon",
+        alt: "Vartalaabh - Community Built on Conversations",
       },
     ],
   },
 };
+
 
 export default async function RootLayout({
   children,
