@@ -19,17 +19,21 @@ export function Hero() {
               <Paragraph size="lg">{t("description")}</Paragraph>
             </div>
           </Card>
-          <div className="block md:hidden">
-            <Image
-              priority
-              src={hero}
-              width={768}
-              height={150}
-              alt="Hero picture"
-              className="rounded-2xl max-h-52 object-cover"
-              placeholder="blur"
-            />
-          </div>
+       <div className="block md:hidden">
+  <div className="relative w-full h-52 overflow-hidden rounded-2xl">
+    <Image
+      priority
+      src={hero}
+      alt="Hero picture"
+      fill
+      sizes="100vw"
+      className="object-cover"
+      placeholder="blur"
+    />
+
+    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent" />
+  </div>
+</div>
           <div className="flex flex-row gap-4">
             <div className="basis-1/2">
               <CtaLink label={t("cta_event")} color="red"   target="_blank" href="https://forms.gle/4Xsz6w7qYyQBijVq6" />

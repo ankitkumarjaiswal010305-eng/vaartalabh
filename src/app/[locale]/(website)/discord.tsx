@@ -4,8 +4,8 @@ import { PageWrapper } from "@/src/app/[locale]/components/page-wrapper";
 import { Paragraph } from "@/src/app/[locale]/components/paragraph";
 import { LinkButton } from "@/src/app/[locale]/components/link-button";
 import { Card } from "@/src/app/[locale]/components/card";
-import discordImage from "../../../../public/assets/whatsa.png";
-import discordImageEn from "../../../../public/assets/whatsa.png";
+import discordImage from "../../../../public/assets/community.jpeg";
+import discordImageEn from "../../../../public/assets/community.jpeg";
 import { useLocale, useTranslations } from "next-intl";
 
 export function Discord() {
@@ -30,7 +30,7 @@ export function Discord() {
             </div>
             <div className="flex flex-col justify-start gap-4 grow basis-2/5">
               <Image
-                src="/assets/whatsapp.png"
+                src="/assets/whatsa.png"
                 width={50}
                 height={50}
                 alt="Discord Icon"

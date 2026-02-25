@@ -12,8 +12,8 @@ export function Navbar() {
         <a href="/" rel="noopener noreferrer">
           <Image
       src="/assets/logo1.png"           
-       width={150}
-            height={150}
+       width={90}
+            height={90}
             className="hidden md:block"
             alt="Klub ada logo"
           />
@@ -21,8 +21,8 @@ export function Navbar() {
         <a href="/" rel="noopener noreferrer">
           <Image
             src="/assets/logo1.png"
-            width={52}
-            height={39}
+            width={50}
+            height={50}
             className="block md:hidden"
             alt="Klub ada logo"
           />
