@@ -1,0 +1,146 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* VartaLaabh Brand Color Engine - Strict HEX Only */
+  /* Global Background */
+  --cream: #f7efe9;
+  /* Primary Action/CTA */
+  --coral: #ff5757;
+  /* High-Intensity Highlights */
+  --orange: #f97316;
+  /* Accents & Folders */
+  --amber: #fbb040;
+  /* Support/Secondary */
+  --sky: #77a4d4;
+  /* Borders & Shadows */
+  --ink: #000000;
+  
+  --background: #f7efe9;
+  --foreground: #000000;
+  --card: #ffffff;
+  --card-foreground: #000000;
+  --popover: #ffffff;
+  --popover-foreground: #000000;
+  --primary: #ff5757;
+  --primary-foreground: #ffffff;
+  --secondary: #fbb040;
+  --secondary-foreground: #000000;
+  --muted: #f7efe9;
+  --muted-foreground: #666666;
+  --accent: #77a4d4;
+  --accent-foreground: #ffffff;
+  --destructive: #ff5757;
+  --destructive-foreground: #ffffff;
+  --border: #000000;
+  --input: #000000;
+  --ring: #ff5757;
+  --chart-1: #ff5757;
+  --chart-2: #fbb040;
+  --chart-3: #77a4d4;
+  --chart-4: #f7efe9;
+  --chart-5: #000000;
+  --radius: 0rem;
+  --sidebar: #f7efe9;
+  --sidebar-foreground: #000000;
+  --sidebar-primary: #ff5757;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #fbb040;
+  --sidebar-accent-foreground: #000000;
+  --sidebar-border: #000000;
+  --sidebar-ring: #ff5757;
+}
+
+.dark {
+  --background: #1a1a1a;
+  --foreground: #F7EFE9;
+  --card: #2a2a2a;
+  --card-foreground: #F7EFE9;
+  --popover: #2a2a2a;
+  --popover-foreground: #F7EFE9;
+  --primary: #FF5757;
+  --primary-foreground: #ffffff;
+  --secondary: #FBB040;
+  --secondary-foreground: #1a1a1a;
+  --muted: #2a2a2a;
+  --muted-foreground: #999999;
+  --accent: #77A4D4;
+  --accent-foreground: #ffffff;
+  --destructive: #FF5757;
+  --destructive-foreground: #ffffff;
+  --border: #444444;
+  --input: #444444;
+  --ring: #FF5757;
+  --chart-1: #FF5757;
+  --chart-2: #FBB040;
+  --chart-3: #77A4D4;
+  --chart-4: #F7EFE9;
+  --chart-5: #ffffff;
+  --sidebar: #2a2a2a;
+  --sidebar-foreground: #F7EFE9;
+  --sidebar-primary: #FF5757;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #FBB040;
+  --sidebar-accent-foreground: #1a1a1a;
+  --sidebar-border: #444444;
+  --sidebar-ring: #FF5757;
+}
+
+@theme inline {
+  --font-sans: var(--font-plus-jakarta), 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  
+  /* Vartalaabh Brand Colors */
+  --color-coral: var(--coral);
+  --color-amber: var(--amber);
+  --color-sky: var(--sky);
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
